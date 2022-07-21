@@ -1,0 +1,32 @@
+<div class="modal-header">
+    <h5 class="modal-title" id="">Agregar Formulario</h5>
+    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+    <form id="form-data">
+        <div class="card card-body" style="background-color: navajowhite">
+            <div style="text-align: left; font-style: italic">
+                <span class="text-capitalize"> Datos del Tipo Operación</span>
+            </div>
+            <div style="text-align: center" ;>
+                <p class="custom-control-label alert alert-secondary my-3">
+                    <span class="text-uppercase"><strong> Son los datos del Tipo Operación</strong></span></p>
+            </div>
+        </div>
+
+        <div class="form-group row mt-2">
+            <div class="col-12 col-md-8 mb-3">
+                <label class="label-control" for="descripcion" class="my-3 mx-3"> Descripción:</label>
+                <input class="form-control" type="text" name="descripcion" id="descripcion" maxlength="50" required value="" />
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-success insert" onclick="javascript:aceptar('agregar')">
+    Aceptar
+  </button>
+    <button class="btn btn-default" data-dismiss="modal">Cerrar</button>
+</div>
